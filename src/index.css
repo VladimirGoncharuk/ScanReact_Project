@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "FerryRegular";
+  src: local("FerryRegular"),
+   url("./fonts/ferry_black.otf") format("truetype");
+  font-weight: normal;
+  }
+  @font-face {
+    font-family: "InterMedium";
+    src: local("InterMedium"),
+     url("./fonts/Inter-Medium.otf") format("truetype");
+    font-weight: normal;
+    }
+    @font-face {
+      font-family: "InterRegular";
+      src: local("InterRegular"),
+       url("./fonts/Inter-Regular.otf") format("truetype");
+      font-weight: normal;
+      } 
+body {
+  background-color: #FFFFFF;
+}

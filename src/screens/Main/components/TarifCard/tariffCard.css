@@ -1,0 +1,160 @@
+.cardTariff {
+    width: 415px;
+    height: 540px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #00000033;
+    margin-right: 25px;
+
+}
+
+.cardTariff__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.bg1 {
+    --bg: #FFB64F;
+    background-color: var(--bg);
+}
+.bg2 {
+    background-color: #7CE3E1;
+}
+.bg3 {
+    background-color: #000000;
+    color: white;
+}
+.cardTariff .bg4 {
+    background-color: #D2D2D2;
+    color: #000000;
+}
+
+.cardTariff__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 132px;
+
+}
+
+.cardTariff__name {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+}
+
+.cardTariff__text {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    margin-top: -8px;
+}
+
+.cardTariff__content {
+    padding-left: 30px;
+}
+
+.cardTariff__blockprice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.cardTariff__price {
+    margin-top: 30px;
+}
+
+.cardTariff__priceNew {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+}
+
+.cardTariff__priceOld {
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-decoration: line-through;
+    opacity: 0.5;
+    margin-left: 18px;
+
+}
+
+.cardTariff__cost {
+
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    margin-top: 10px;
+}
+
+.cardTariff__includeTitle {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    margin-top: 60px;
+}
+
+.cardTariff__includeImg {
+    margin-right: 13px;
+}
+
+.cardTariff__button {
+    width: 355px;
+    height: 59px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    border: none;
+    margin-top: 53px;
+    background-color: #5970FF;
+    color: white;
+    cursor: pointer;
+}
+.light {
+    border: solid 2px #FFB64F;
+}
+.light2 {
+    border: solid 2px#7CE3E1;
+}
+.light3 {
+    border: solid 2px black;
+}
+@media(max-width:900px) {
+    .cardTariff {
+        width: 335px;
+        height: 512px;
+        margin-bottom: 40px;
+
+    }
+    .cardTariff__button {
+        width: 286px;
+        margin-top: 10px;
+    }
+
+    .cardTariff__img {
+        width: 59px;
+        height: 53px;
+    }
+    .cardTariff__img img {
+        width: 59px;
+        height: 53px;
+        margin-top: -30px;
+    }
+    .cardTariff__includeTitle {
+        font-size: 18px;
+    }
+    .cardTariff__includeText {
+        font-size: 16px;
+    }
+    .cardTariff__content {
+        padding-left: 15px;
+    }
+
+}

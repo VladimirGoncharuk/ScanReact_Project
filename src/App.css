@@ -1,0 +1,14 @@
+.font-inter {
+    font-family: "InterRegular";
+    font-size: 18px;
+   }
+   .font-medium {
+    font-family: "InterMedium";
+   }
+   .font-ferry {
+    font-family: "FerryRegular";
+   }
+   .body{
+    background:black;
+   }
+   

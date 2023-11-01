@@ -1,0 +1,10 @@
+.cardTariff__indificateTariff {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+@media(max-width:900px) {
+    .cardTariff__indificateTariff {
+        display: none;
+    }
+
+}

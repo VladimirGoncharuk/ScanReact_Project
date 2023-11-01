@@ -1,0 +1,91 @@
+.searchPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1346px;
+    margin: auto;
+    padding-left: 27px;
+    padding-top: 36px;
+    margin-bottom: -49px;
+}
+.searchPage__bloclImg {
+    margin-right: -60px;
+    position: relative;
+    margin-top: 310px;
+}
+.searchPage__img1 {
+    position: absolute;
+    top: -225px;
+    left: -67px;
+}
+.searchPage__img2 {
+    position: absolute;
+    top: -207px;
+    left: 186px;
+}
+.searchPage__title {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+}
+.searchPage__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+@media(max-width:900px) {
+    .searchPage {
+        flex-direction: column;
+        width: 375px;
+        position: relative;
+        padding-top: 0;
+        padding-left: 5px;
+    }
+    .searchPage__img2 {
+        display: none;
+    }
+    .searchPage__title {
+
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 34px;
+    }
+    .searchPage__text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        width: 300px;
+    }
+    .searchPage__img3 {
+        width: 375px;
+        height: 400px;
+    }
+    .searchPage__bloclImg {
+        position: static;
+    }
+    .searchPage__titleForm {
+        width: 375px;
+    }
+    .searchPage__bloclImg {
+        margin: 131px auto 71px 17px;
+    }
+    .searchPage__img1 {
+        width: 58px;
+        height: 71px;
+        top: 117px;
+        left: 290px;
+    }
+}
+@media(max-width:1330px) {
+    .searchPage {
+        flex-direction: column;
+    }
+    .searchPage__title {
+        width: 375px;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 34px;
+    }
+}

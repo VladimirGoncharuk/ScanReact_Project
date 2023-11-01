@@ -1,0 +1,114 @@
+
+.sliderResult .slick-prev {
+    left: -52px !important;
+}
+.sliderResult .slick-next {
+    right: 22px !important;
+}
+.sliderResult .slick-next:before,
+.sliderResult .slick-prev:before {
+    content: "" !important;
+}
+
+.sliderResult .slick-slide {
+    width: 135px !important;
+    text-align: center;
+    height: 124px;
+
+}
+
+.sliderResult .prev-slick-arrow {
+    margin-left: -125px;
+}
+.sliderResult .next-slick-arrow {
+    margin-left: 106px;
+}
+
+.sliderResult__dataContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 0;
+    padding-right: 17px;
+    border-right: solid 1px #949494;
+    width: 124px;
+
+}
+.sliderResult__itemContent {
+    margin-top: 8px;
+}
+
+.next-slick-arrow,
+.prev-slick-arrow {
+    color: #000000;
+    font-size: 45px;
+
+}
+
+.sliderResult__complexData {
+    display: flex !important;
+    flex-direction: row;
+}
+.sliderResult__data {
+    margin-right: 10px;
+    width: 150px;
+    display: inline-block;
+}
+.spinerResult {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.spinerResultImg {
+    width: 50px;
+    height: 50px;
+}
+.spinerResultText {
+
+    font-size: 18px;
+    line-height: 22px;
+}
+.sliderResult .slick-slider {
+    width: 1072px;
+}
+
+@media(max-width:900px) {
+    .sliderResult .slick-list {
+        width: 294px;
+    }
+    .sliderResult .slick-slider {
+        width: 294px;
+    }
+    .sliderResult__dataContent {
+
+        border-right: none;
+        width: 294px;
+    }
+    .sliderResult__itemContent {
+        margin-right: 40px;
+    }
+
+    .sliderResult .slick-slide {
+        width: 300px !important;
+        height: 40px !important;
+    }
+    .sliderResult__data {
+        width: 0;
+    }
+    .sliderResult .prev-slick-arrow {
+        margin-left: 0;
+    }
+    .sliderResult .slick-slide {
+
+        text-align: start;
+    }
+    .sliderResult .next-slick-arrow {
+        margin-left: 42px;
+    }
+    .sliderResult .prev-slick-arrow {
+        margin-left: 13px;
+    }
+}

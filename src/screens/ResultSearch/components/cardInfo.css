@@ -1,0 +1,117 @@
+.result__onelist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #00000033;
+    padding-left: 25px;
+    padding-right: 30px;
+    width: 623px;
+    margin-right: 37px;
+
+}
+
+.result__titleOnelist {
+
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+
+}
+.result__textOnelist {
+
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.5;
+    margin-top: 25px;
+}
+.result__labelOnelist {
+    border-radius: 5px;
+    width: 157px;
+    height: 22px;
+    background-color: #FFB64F;
+    color: #000000;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+.result__buttonOnelist {
+    width: 223px;
+    height: 46.54px;
+    border-radius: 5px;
+    background-color: #7CE3E1;
+    color: black;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 13px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    margin-top: 30px;
+
+}
+.result__countWordsOnelist {
+
+    font-size: 16px;
+
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    align-self: flex-end;
+    margin-top: -20px;
+    margin-bottom: 32px;
+    color: #949494;
+}
+.cardInfoImg {
+
+    text-align: center;
+    margin: auto;
+}
+.cardInfoImg img {
+    width: 100%;
+}
+.cardHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.linkCardInfo,
+.result__sourceOnelist {
+    color: #949494;
+}
+.linkCardInfo {
+    margin-left: 12px;
+    margin-top: 17px;
+    font-size: 16px;
+}
+
+@media(max-width:900px) {
+    .result__onelist {
+        width: 335px;
+    }
+    .result__buttonOnelist {
+        width: 195px;
+        height: 40px;
+    }
+    .result__countWordsOnelist {
+        font-size: 14px;
+    }
+    .result__BlockList {
+        width: 375px;
+        margin: auto;
+    }
+    .result__titleOnelist {
+        font-size: 19px;
+    }
+    .result__textOnelist {
+        font-size: 12px;
+    }
+}

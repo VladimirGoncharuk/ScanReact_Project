@@ -1,0 +1,190 @@
+.formSelect {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formSelect__label {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    margin-top: 41px;
+    margin-bottom: 14px;
+    color: black;
+}
+.formSelect__mood {
+    appearance: none;
+    -webkit-appearance: none;
+    /* Safari и Chrome */
+    -moz-appearance: none;
+    /* Mozilla */
+    -ms-appearance: none;
+    /* IE */
+    background-image: url("../../../images/arrowList.svg");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: calc(100% - 15px) center;
+    padding: 8px 32px 8px 16px;
+    outline: none;
+    cursor: pointer;
+    width: 242px;
+    height: 43px;
+    border-radius: 5px;
+    border: solid 1px #C7C7C7;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px 0 #0000000D;
+
+}
+.dateBlock {
+    display: flex;
+    flex-direction: row;
+}
+.blockRequest {
+    display: flex;
+    flex-direction: row;
+    padding-left: 36px;
+    padding-top: 20px;
+}
+.blockButtonSearch {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    align-self: end;
+    margin-top: -112px;
+
+}
+.formSearchPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blockButtonSearch__button {
+    width: 305px;
+    height: 59px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #5970FF;
+    border-radius: 5px;
+    font-family: Inter;
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+}
+.blockButtonSearch__button:hover {
+    font-size: 30px;
+}
+.blockButtonSearch__button:disabled {
+    opacity: 0.5;
+}
+.blockButtonSearch__text {
+
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #949494;
+
+}
+.formCheckbox {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.labelLogin {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 40px;
+    margin-bottom: 14px;
+    color: black;
+    display: inline-block;
+
+}
+.loginInput {
+    width: 242px;
+    height: 43px;
+    border-radius: 5px;
+    border: solid 1px #C7C7C7;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px 0 #0000000D;
+    padding-right: 8px;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 9px;
+}
+
+.fake {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    color: green;
+    justify-content: center;
+    border: solid 1px black;
+    margin-right: 17px;
+}
+
+.fake::before {
+    content: "\2714";
+    opacity: 0;
+    transition: 0.1s;
+    margin-top: -5px;
+}
+.checkbox:checked + .fake::before {
+    opacity: 1;
+}
+.checkbox {
+    display: none;
+}
+.formCheckbox label {
+    margin-top: 18px;
+}
+.loginDataEnd {
+    margin-top: 8px;
+}
+@media(max-width:900px) {
+    .blockRequest{
+        flex-direction: column;
+        padding: 0;
+    }
+    .blockButtonSearch{
+        margin: auto;
+        align-items: start;
+        margin-left: 1px;
+    }
+    .formCheckbox{
+        display: none;
+    }
+    .loginInput{
+        width: 335px;
+    }
+    .formSelect__mood{
+        width: 335px;
+    }
+    .dateBlock{
+        flex-direction: column;
+    }
+    .loginDataEnd{
+       margin-top: -13px;
+    }
+    .labelLogin{
+        margin-top: 13px;
+    }
+    .blockButtonSearch__button{
+margin-top: 20px;
+    }
+}
+@media(max-width:1100px) {
+    .blockRequest{
+        flex-direction: column;
+        padding: 0;
+    }
+    .blockButtonSearch{
+        margin: auto;
+        align-items: start;
+        margin-left: 1px;
+        margin-top: 50px;
+    }
+}

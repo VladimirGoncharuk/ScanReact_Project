@@ -1,0 +1,112 @@
+.reasonBlock {
+    width: 1346px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 97px;
+    margin-left: 57px;
+}
+.reasonBlock__title {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+}
+.imgMainBlock {
+    margin-top: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.imgMainBlock__img2 {
+    margin-left: 50px;
+}
+.tariffs__blockCardTariff {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+    width: 1320px;
+}
+.tariffs__title {
+    font-size: 45px;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+
+}
+.tariffs {
+
+    padding-top: 77px;
+    padding-left: 56px;
+    width: 1320px;
+    margin: auto;
+}
+
+@media(min-width:1440px) {
+    .tariffs {
+        margin: auto;
+    }
+    .reasonBlock {
+        margin: auto;
+    }
+}
+@media(max-width:1400px) {
+    .tariffs__blockCardTariff {
+        width: 1000px;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+@media(max-width:1300px) {
+    .reasonBlock {
+        margin-top: 450px;
+    }
+    .reasonBlock__title {
+        margin: auto;
+    }
+    .imgMainBlock__img2 {
+        display: none;
+    }
+    .tariffs__title {
+        margin: auto;
+        align-self: center;
+    }
+
+}
+@media(max-width:1200px) {
+    .reasonBlock,
+    .tariffs {
+        width: 900px;
+    }
+}
+@media(max-width:900px) {
+    .reasonBlock__title {
+        font-size: 28px;
+        width: 234px;
+        margin: 0;
+    }
+    .imgMainBlock,
+    .imgMainBlock__img1 {
+        width: 347px;
+        height: 392px;
+        margin-bottom: 67px;
+        margin: auto;
+    }
+    .reasonBlock {
+        width: 375px;
+        margin: auto;
+    }
+    .tariffs__blockCardTariff {
+        width: 375px;
+    }
+    .tariffs {
+        width: 375px;
+        padding: 0 10px;
+    }
+    .tariffs__title {
+        font-size: 28px;
+    }
+}

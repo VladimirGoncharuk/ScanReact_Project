@@ -46,7 +46,7 @@ function FormAuth(){
         </div>
         <div className="form__send">
             <button disabled={disabled} className="form__button font-medium" onClick={buttonlick}>Войти</button>
-            <button className="form__link font-inter">Восстановить пароль</a>
+            <button className="form__link font-inter">Восстановить пароль</button>
         </div>
         <div className="form__blockButton">
             <p className="form__blockButtonText font-inter">Войти через:</p>

@@ -11,7 +11,7 @@ function CardInfo(item) {
         return xmlDOM
             .documentElement
             .textContent
-            .replace(/(\<(\/?[^>]+)>)/g, '')
+            .replace(/(<(\/?[^>]+)>)/g, '')
     }
     const {XMLParser} = require("fast-xml-parser");
     const parser = new XMLParser();

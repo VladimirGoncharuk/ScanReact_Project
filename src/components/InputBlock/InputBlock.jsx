@@ -9,7 +9,7 @@ function InputBlock(){
     return (
         <> 
              < div className = 'header__blockRegistration' >
-             <a href='#' className='header__text font-inter'>Зарегистрироваться</a>
+             < button className='header__text font-inter'>Зарегистрироваться</a>
              < p className = 'header__tube' >|</p>
              <button className='header__button font-medium' onClick={Auth}>Войти</button > 
             </div>

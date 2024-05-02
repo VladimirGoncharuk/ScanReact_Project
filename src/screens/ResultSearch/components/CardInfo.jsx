@@ -21,7 +21,7 @@ function CardInfo(item) {
     useEffect(() => {
         const html = jObj.scandoc['#text']
          setHtml(html)
-    }, [jObj.scandoc['#text']])
+    })
     return (
         <div className="result__onelist">
             <div className="cardHeader">

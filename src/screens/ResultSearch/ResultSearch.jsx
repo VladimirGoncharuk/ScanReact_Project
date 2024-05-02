@@ -42,7 +42,7 @@ function ResultSearch() {
             setCardContent(searchcompanyDataInfo && searchcompanyDataInfo.data)
 
         }
-    }, [])
+    }, [store])
 
     async function clickHandler() {
         const idRemains = idsApart(firstArrayIds)

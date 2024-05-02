@@ -1,57 +1,70 @@
-# **ScanReact_Project**
+# Getting Started with Create React App
 
-## Описание проекта
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Проект **ScanReact** является клиентской частью приложения для компании «СКАН», которая разработала новый API для поиска публикаций о компании (юридическом лице) в средствах массовой информации по ИНН. 
+## Available Scripts
 
-### Работа приложения включает в себя
+In the project directory, you can run:
 
-При открытии приложения (без авторизации) - идет направление пользователя на главную страницу.
-Вход в акаунт осуществляется с помощью формы авторизации.
-После успешной авторизации в фоновом режиме запрашиваются данные об аккаунте пользователя и выводятся в header страницы .
-Страница поиска предусматривает ввод параметров. Если параметры поиска введены корректно, производится получение сводной информацию по количеству публикаций и рискам.
-Параллельно, используя те же параметры, выполняется поиск непосредственно самих публикаций.
-После успешного завершения запроса  формируется список ID публикаций и осуществляется запрос на содержимое первых 10 публикаций.
-При большем количестве публикаций (больше 10), с помощью кнопки «Показать больше», подгружаются следующие 10 публикаций.
+### `yarn start`
 
- ### Для демонстрации работы приложения можно использовать следующие данные:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Логин	Пароль																								
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-sf_student1	4i2385j																								
+### `yarn test`
 
-sf_student10	KHKfTXb																								
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-sf_student3	6z9ZFRs																								
+### `yarn build`
 
-sf_student2	lV8xjCH																								
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-sf_student4	Br1+tbG																								
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-sf_student5	LuwAwJf																								
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-sf_student6	eczpWCB																								
+### `yarn eject`
 
-sf_student7	P6VcKNf																								
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-sf_student8	5QB0KM/																								
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-sf_student9	DTdEwAn
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-## Используемые технологии
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-* **JavaScript-библиотека React**
-* **React Router**
-* **Axios**
-* **Mobx**
-* **LocalStorage**
-* **JS**
-* **CSS**
-* **HTML**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Как открыть/запустить
-* Клонировать репозиторий;
-* Установить зависимости;
-* В терминале  перейти в директорию проекта и набрать команду "npm run start"
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

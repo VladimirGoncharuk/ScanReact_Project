@@ -42,7 +42,7 @@ function ResultSearch() {
             setCardContent(searchcompanyDataInfo && searchcompanyDataInfo.data)
 
         }
-    }, [])
+    }, [store])
 
     async function clickHandler() {
         const idRemains = idsApart(firstArrayIds)
@@ -51,7 +51,7 @@ function ResultSearch() {
             ...cardContent,
             ...idRemainsInfo.data
         ])
-
+        
     }
 
     return (
@@ -107,7 +107,7 @@ function ResultSearch() {
                     className="result__button font-medium"
                     onClick={clickHandler}
                     disabled={(
-                        firstArrayIds && firstArrayIds.length == 0)
+                        firstArrayIds && firstArrayIds.length === 0)
                         ? true
                         : false}>Показать больше</button>
             </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import './cardReason.css'
 
-function CardReason({children, source,className1,className2}) {
+function CardReason({children, source}) {
     return (
         <div className="cardReason">
             <img className="cardReason__img" src={source} alt="Card Reasone" />

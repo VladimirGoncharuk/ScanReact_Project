@@ -27,13 +27,13 @@ $api
         return config;
     }, async (error) => {
        
-        if (error.response.status == 415 && error.response.config.url === "/api/v1/objectsearch/histograms") {
+        if (error.response.status === 415 && error.response.config.url === "/api/v1/objectsearch/histograms") {
             window
                 .history
                 .go(-1)
             console.log("bbbbbback", error.response)
             const response = await axios.get('/api/v1/account/info')
-
+            console.log(response)
         }
     })
 

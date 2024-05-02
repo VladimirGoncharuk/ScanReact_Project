@@ -9,7 +9,7 @@ import { Context } from "../../../App";
 function FormAuth(){
     const [login, setLogin]= useState('')
     const [password, setPassword]= useState('')  
-    const disabled=(login==''||password=='')?true:false
+    const disabled=(login===''||password==='')?true:false
     const {store} = useContext(Context)   
     const inputRef = useRef(null)
     const errorLogMes = useRef(null)

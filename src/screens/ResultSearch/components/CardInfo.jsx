@@ -11,7 +11,7 @@ function CardInfo(item) {
         return xmlDOM
             .documentElement
             .textContent
-            .replace(/(\<(\/?[^>]+)>)/g, '')
+            .replace(/(<(\/?[^>]+)>)/g, '')
     }
     const {XMLParser} = require("fast-xml-parser");
     const parser = new XMLParser();
@@ -19,8 +19,9 @@ function CardInfo(item) {
 
     const [html, setHtml] = useState("")
     useEffect(() => {
-        jObj.scandoc['#text'] && setHtml(jObj.scandoc['#text'])
-    }, [html])
+        const html = jObj.scandoc['#text']
+         setHtml(html)
+    }, [jObj.scandoc])
     return (
         <div className="result__onelist">
             <div className="cardHeader">

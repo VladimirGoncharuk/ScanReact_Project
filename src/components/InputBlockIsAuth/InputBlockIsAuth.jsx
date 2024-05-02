@@ -11,7 +11,7 @@ function InputBlockIsAuth(){
      const {store} =  useContext(Context) 
      const url= '../images/avatarexample.jpeg'
     useEffect(()=>{store.infocompany()}   
-    ,[])
+    ,[store])
     const logout=()=>{store.logout()}
 
      

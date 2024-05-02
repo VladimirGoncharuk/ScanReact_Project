@@ -126,7 +126,7 @@ function FormRequest() {
                         result = true;
                     }
                     break;
-                    default: console.log('default not')
+                     default: console.log('default not')
             }
             if (!result) {
                 setInnError('Введите корректные данные');
@@ -212,6 +212,7 @@ function FormRequest() {
             case 'news':
                 setNews(e.target.checked)
                 break;
+                 default: console.log('default not')
         }
 
     }

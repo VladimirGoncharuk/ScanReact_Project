@@ -5,8 +5,8 @@ import bird from '../../../../images/bird.svg'
 
 
 function TariffCard({tarriffImg,tariffAction,children,bg}) {
-   const [label, setLabel]= useState(children.tariffOption);  
-  
+   const [label, setLabel]= useState('');  
+    setLabel(children.tariffOption);
     const bg4=label? "bg4":'';
     const light =label?((bg==="bg1")? 'light':(bg==="bg2")?'light2':'light3'):'';
    
